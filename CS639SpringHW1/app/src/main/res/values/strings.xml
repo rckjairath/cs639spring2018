@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">CS639SpringHW1</string>
+    <string name="app_name">MyPrApplication</string>
+    <string name="name">Ricky Jairath</string>
+    <string name="dosgDesc">Dogs are domesticated mammals, not natural wild animals. They were originally bred from wolves. </string>
+    <string name="birdDesc">Birds are a group of endothermic vertebrates, characterised by featherswith strong yet lightweight skeleton."</string>
+    <string name="catDesc">"The domestic cat is a small, typically furry, carnivorous mammal."</string>
+    <string name="course1">CS 493</string>
+    <string name="course2">CS 593</string>
+    <string name="course3">CS 693</string>
+
 </resources>
