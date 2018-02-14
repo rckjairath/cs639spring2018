@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    tools:context="com.example.rckja.userinterface.MainActivity">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item"
+        android:layout_below="@+id/root"
+        android:layout_above="@+id/linearLayout"
+        tools:ignore="NotSibling" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignBottom="@+id/colorZPicker"
+            >
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Add Fact"
+                android:imeOptions="actionDone"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/addFact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_weight="0"
+                android:text="Add Fact" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/colorZPicker"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnGreen"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/green" />
+
+            <Button
+                android:id="@+id/btnPink"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/pink" />
+
+            <Button
+                android:id="@+id/btnRed"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/red" />
+
+            <Button
+                android:id="@+id/btnYellow"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/yellow" />
+
+            <Button
+                android:id="@+id/btnBlue"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UserInterface</string>
+    <string name="dosgDesc">Dogs are domesticated mammals, not natural wild animals. They were originally bred from wolves. </string>
+    <string name="birdDesc">Birds are a group of endothermic vertebrates, characterised by featherswith strong yet lightweight skeleton."</string>
+    <string name="catDesc">"The domestic cat is a small, typically furry, carnivorous mammal."</string>
+    <string name="lizrdDesc">Lizards are a widespread group of squamate reptiles, ranging across all continents."</string>
+    <string name="fishDesc">Fish are the gill-bearing aquatic craniate animals that lack limbs with digits."</string>
+    <string name="pandaDesc">The giant panda, also known as panda bear or simply panda, is a bear native to south central China."</string>
+    <string name="gorillaDesc">The giraffe is a genus of African even-toed ungulate mammals, the largest ruminants."</string>
+    <string name="whaleDesc">Whales are a widely distributed and diverse group of fully aquatic placental marine mammals."</string>
+    <string name="leopardDesc">The leopard is one of the five species in the genus Panthera, a member of the Felidae."</string>
+    <string name="lionDesc">The lion is a species in the family Felidae and a member of the genus Panthera."</string>
+
+</resources>

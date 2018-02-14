@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="left"
+        android:layout_marginRight="10dp"
+        android:id="@+id/imageView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_toLeftOf="@id/linearLayout"
+        android:layout_toRightOf="@id/imageView"
+        android:id="@+id/textView"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        >
+    <Button
+        android:id="@+id/nextFact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Next Fact" />
+    <Button
+        android:id="@+id/deleteFact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/nextFact"
+        android:text="Delete Fact" />
+    </LinearLayout>
+</RelativeLayout>
+
+
